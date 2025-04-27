@@ -7,7 +7,7 @@ import { Card, MaybeCard, stringifyCard } from "@/lib/deck";
 import { MNEMONICA } from "@/lib/mnemonica";
 import { useTrainerStats } from "@/lib/trainer";
 import { useAtom } from "jotai";
-import { atomWithImmer, useImmerAtom } from "jotai-immer";
+import { atomWithImmer } from "jotai-immer";
 import { useCallback, useEffect, useState } from "react";
 import { FaCaretRight } from "react-icons/fa";
 
